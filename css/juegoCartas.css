@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+}
+
+html 
+{
+    height: 100vh;
+    width: 100vw;
+    font-family:'Belwe Bd BT','Verdana','Monaco',sans-serif;
+    background-color: black;
+}
+
+header h1
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(252, 250, 250);
+    width: 100vw;
+    height: 5vh;
+}
+
+main
+{
+    width: 100vw;
+    height: calc(100vh - (5vh + 5vh));
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    color: rgb(252, 250, 250);
+    width: 100vw;
+    height: 5vh;
+    
+}
+
+.baraja
+{
+    float: left;
+    width: 75vw;
+}
+
+.puntuacion
+{
+    float: right;
+    width: 25vw;
+    background-color: black;
+    color: rgb(249, 245, 245);
+    text-align: center;
+}
+
+.datos
+{
+    width: 100%;
+    text-align: center;
+}
+
+#panel1
+{
+    color: rgb(249, 245, 245);
+    font-size: 30px;
+}
+
+.puntuacion table
+{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.puntuacion label
+{
+    color: rgb(249, 245, 245);
+}
+
+.puntuacion p
+{
+    color: rgb(2, 249, 19);
+}
+
+.columna
+{
+    /*float: left;*/
+    width: 10%;
+}
+
+/*.fila::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+.img
+{
+    height: 90%;
+    width: 90%;
+}
+
+.table tr td img:hover
+{
+    border: solid #fe0101;
+    cursor: pointer;
+}
+
+.datos
+{
+    vertical-align: top;
+    text-align: center;
+}
+
+.medio
+{
+    vertical-align: center;
+}
+
+.medio p
+{
+    height: 20px;
+}
+
+.puntos
+{
+    vertical-align: bottom;
+    text-align: center;
+}
+
+footer ul li
+{
+    display: inline;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+
+footer ul li a
+{
+    display: inline;
+    list-style: none;
+    text-align: center;
+    color: rgb(249, 245, 245);
+    text-decoration: none;
+}
+
+footer ul li a:hover
+{
+    color: chartreuse;
+}
+
+
+.jugadas
+{
+    margin-top: 10px;
+}
+
+.jugadas label
+{
+    color: chartreuse;
+    font-size: 30px;
+}
+
+.Jugar 
+{
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+}
+
+#sep
+{
+    color: white;
+}

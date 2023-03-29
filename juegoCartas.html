@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/juegoCartas.css">
+    <title>Juego Gráfico</title>
+</head>
+<body>
+    <header>
+        <h1>
+            El Juego de la Pareja de Cartas
+        </h1>
+    </header>
+    <main>
+        <section class="baraja">
+            <table class="table" id="tablaCartas">
+                <tr class="fila">
+                    <td class="columna">
+                        <img id="1.0" class="img" src="./img/reverso.png" alt="imagen11" onclick="eventoOnClick('1.0', '0')">
+                    </td>
+                    <td class="columna">
+                        <img id="1.1" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('1.1', '1')">
+                    </td>
+                    <td class="columna">
+                        <img id="1.2" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('1.2', '2')">
+                    </td>
+                    <td class="columna">
+                        <img id="1.3" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('1.3', '3')">
+                    </td>
+                    <td class="columna">
+                        <img id="1.4" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('1.4', '4')">
+                    </td>
+                    <td class="columna">
+                        <img id="1.5" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('1.5', '5')">
+                    </td>
+                    <td class="columna">
+                        <img id="1.6" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('1.6', '6')">
+                    </td>
+                    <td class="columna">
+                        <img id="1.7" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('1.7', '7')">
+                    </td>
+                    <td class="columna">
+                        <img id="1.8" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('1.8', '8')">
+                    </td>
+                    <td class="columna">
+                        <img id="1.9" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('1.9', '9')">
+                    </td>
+                </tr>
+                <tr class="fila">
+                    <td class="columna">
+                        <img id="2.0" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.0', '10')">
+                    </td>
+                    <td class="columna">
+                        <img id="2.1" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.1', '11')">
+                    </td>
+                    <td class="columna">
+                        <img id="2.2" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.2', '12')">
+                    </td>
+                    <td class="columna">
+                        <img id="2.3" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.3', '13')">
+                    </td>
+                    <td class="columna">
+                        <img id="2.4" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.4', '14')">
+                    </td>
+                    <td class="columna">
+                        <img id="2.5" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.5', '15')">
+                    </td>
+                    <td class="columna">
+                        <img id="2.6" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.6', '16')">
+                    </td>
+                    <td class="columna">
+                        <img id="2.7" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.7', '17')">
+                    </td>
+                    <td class="columna">
+                        <img id="2.8" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.8', '18')">
+                    </td>
+                    <td class="columna">
+                        <img id="2.9" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('2.9', '19')">
+                    </td>
+                </tr>
+                <tr class="fila">
+                    <td class="columna">
+                        <img id="3.0" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.0', '20')">
+                    </td>
+                    <td class="columna">
+                        <img id="3.1" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.1', '21')">
+                    </td>
+                    <td class="columna">
+                        <img id="3.2" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.2', '22')">
+                    </td>
+                    <td class="columna">
+                        <img id="3.3" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.3', '23')">
+                    </td>
+                    <td class="columna">
+                        <img id="3.4" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.4', '24')">
+                    </td>
+                    <td class="columna">
+                        <img id="3.5" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.5', '25')">
+                    </td>
+                    <td class="columna">
+                        <img id="3.6" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.6', '26')">
+                    </td>
+                    <td class="columna">
+                        <img id="3.7" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.7', '27')">
+                    </td>
+                    <td class="columna">
+                        <img id="3.8" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.8', '28')">
+                    </td>
+                    <td class="columna">
+                        <img id="3.9" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('3.9', '29')">
+                    </td>
+                </tr>
+                <tr class="fila">
+                    <td class="columna">
+                        <img id="4.0" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.0', '30')">
+                    </td>
+                    <td class="columna">
+                        <img id="4.1" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.1', '31')">
+                    </td>
+                    <td class="columna">
+                        <img id="4.2" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.2', '32')">
+                    </td>
+                    <td class="columna">
+                        <img id="4.3" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.3', '33')">
+                    </td>
+                    <td class="columna">
+                        <img id="4.4" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.4', '34')">
+                    </td>
+                    <td class="columna">
+                        <img id="4.5" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.5', '35')">
+                    </td>
+                    <td class="columna">
+                        <img id="4.6" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.6', '36')">
+                    </td>
+                    <td class="columna">
+                        <img id="4.7" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.7', '37')">
+                    </td>
+                    <td class="columna">
+                        <img id="4.8" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.8', '38')">
+                    </td>
+                    <td class="columna">
+                        <img id="4.9" class="img" src="./img/reverso.png" alt="" srcset="" onclick="eventoOnClick('4.9', '39')">
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="puntuacion">
+            <table class="datos">
+                <tr>
+                    <td>
+                        <label id="panel1">
+                            Panel de Juego
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="panel2">
+                            &nbsp;
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="j1" for="j1">
+                            Jugador
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pJugador1">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="j2" for="j2">
+                            
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pJugador2">
+
+                        </p>
+                    </td>
+                </tr>
+            </table>   
+            <table class="puntos">
+                <tr>
+                    <td>
+                        <label id="l1" for="j1">
+                            Número total de parejas logradas
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pParejasPalo">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pParejasNumero">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pParejasSotas">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pParejasCaballos">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pParejasReyes">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pParejasAses">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pParejas4Reyes">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pParejas4Ases">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="l2" for="j2">
+                            Puntuación Total
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pPuntosTotal">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="l3" for="j3">
+                            Tiradas por cada mano
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="pTiradas">
+
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="Jugar" id="btnJugar" onclick="funcionBotonJugar()">Iniciar Juego</button>
+                    </td>
+                </tr>
+            </table>    
+            <div class="jugadas">
+                <label id="labelJugadas">
+
+                </label>
+                <label id="labelResultado">
+
+                </label>
+                <label id="labelFin">
+
+                </label>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="menuFooter">
+            <li>
+                <a href="./index.html">Volver &nbsp; &nbsp; &nbsp; &nbsp;</a >
+            </li>
+            <li>
+                <a href="./records.html">Record &nbsp; &nbsp; &nbsp; &nbsp;</a>
+            </li>
+            <li>
+                <a href="./instrucciones.html">Instrucciones</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+<script src="js/parejaCartas.js"></script>
+</html>

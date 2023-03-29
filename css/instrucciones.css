@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+}
+
+html 
+{
+    height: 100%;
+    width: 100%;
+    font-family:'Belwe Bd BT','Verdana','Monaco',sans-serif;
+    background-color: black;
+}
+
+header h1
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(252, 250, 250);
+    width: 100%;
+    height: 50px
+}
+
+section ul
+{
+    margin-top: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+section ul li
+{
+    line-height: 50px;
+}
+
+section ul li
+{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(23, 254, 2);
+}
+
+footer
+{
+    text-align: center;
+}
+
+footer a
+{
+    color: rgb(252, 250, 250);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 50px
+}
+
+footer a:hover
+{
+    color: chartreuse;
+}

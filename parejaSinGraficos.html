@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/parejaSinGraficos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            El Juego de la Pareja de Cartas
+        </h1>
+    </header>
+    <section>
+        <table id="tablaJuego">
+            <tr>
+                <td>
+                    <table id="tablaJugador1" title="Jugador 1">
+                        <tr>
+                            <td>
+                                Jugador 1
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j1" class="datos">
+                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Última carta elegida
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="ca1" class="datos">
+                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Nº Movimientos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="mo1" class="datos">
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table id="tablaJugador2" title="Jugador 2">
+                        <tr>
+                            <td>
+                                Jugador 2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j2" class="datos">
+                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Última carta elegida
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="ca2" class="datos">
+                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Nº Movimientos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="mo2" class="datos">
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table id="tablaMovimientos1">    
+                        <tr>
+                            <td>
+                                Cartas elegidas por jugador 1 en cada turno:
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j11" class="datosJ1">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j12" class="datosJ2">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j13" class="datosJ1">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j14" class="datosJ2">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j15" class="datosJ1">
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table id="tablaMovimientos2">
+                        <tr>
+                            <td>
+                                Cartas elegidas por jugador 2 en cada turno:
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j21" class="datosJ1">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j22" class="datosJ2">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j23" class="datosJ1">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j24" class="datosJ2">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="j25" class="datosJ1">
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <table id="tablaPuntuacion">
+                        <tr>
+                            <td>
+                                Puntuación Global
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="punG"  class="datos">
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>        
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <button class="Jugar" id="bJugar" onclick="funcionJugar()">Iniciar Juego</button>
+                </td>
+            </tr>
+        </table> 
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="./index.html">Volver &nbsp; &nbsp; &nbsp; &nbsp;</a >
+            </li>
+            <li>
+                <a href="./instruccionesUT2.html">Instrucciones</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+<script src="./js/parejaSinGraficos.js"></script>
+</html>

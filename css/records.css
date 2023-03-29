@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+}
+
+html 
+{
+    height: 100vh;
+    width: 100vw;
+    font-family:'Belwe Bd BT','Verdana','Monaco',sans-serif;
+    color: rgb(252, 250, 250);
+    background-color: black;
+}
+
+header h1
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(252, 250, 250);
+    width: 100%;
+    height: 5vh
+}
+
+section
+{
+    width: 100vw;
+    height: 85vh;
+    padding-top: 10px;
+    align-content: center;
+}
+
+#clasificacion
+{
+    border-color: white;
+    border-style: double;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+#clasificacion tr th
+{
+    color: rgb(252, 250, 250);
+    border-color: white;
+    border-style: double;
+}
+
+.puesto
+{
+    color: rgb(252, 250, 250);
+}
+
+#clasificacion tr td
+{
+    color: chartreuse;
+    border-color: white;
+    border-width: thin;
+    border-style: groove;
+    text-align: center;
+}
+
+footer
+{
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+}
+
+footer a
+{
+    color: rgb(252, 250, 250);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+footer a:hover
+{
+    color: chartreuse;
+}
